@@ -1,0 +1,9 @@
+version: "3"
+services:
+  vuejs-webapp:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    volumes:
+      - ".:/app"
+      - "/app/node_modules"
