@@ -6,4 +6,4 @@ before_install:
   - docker build -t vpradeepkumar94/docker-vuejs -f Dockerfile.dev .
 
 script:
-  - docker run vpradeepkumar94/docker-vuejs npm run test -- --coverage
+  - docker run vpradeepkumar94/docker-vuejs npm run dev
